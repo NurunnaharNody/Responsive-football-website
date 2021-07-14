@@ -1,0 +1,95 @@
+/* ------------------fonts for style --------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*------------------ cover page style----------------------  */
+.cover-page{
+    background-color: rgba(14, 14, 160, 0.829);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 5px;
+    align-items: center;
+}
+.cover-title{
+     margin: 207px 102px 240px 156px; 
+    
+}
+
+.cover-title h1{
+      font-size: 64px;
+      font-weight: 700;
+      color: #FFFFFF;
+      
+}
+.cover-title span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #E02C6D; 
+    height: 44px;
+    width: 168px;
+    padding: 10px 40px;
+    align-items: center;
+}
+.cover-title span i{
+         margin-left:5px;
+}
+.cover-image img{
+    width:556px;
+    height:438px;
+     margin: 153px 140px 86px 104px; 
+}
+/* -----------------------------players details styles----------------------------- */
+.container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 70px;
+            padding-left: 180px;
+            padding-right: 210px;
+}
+.player-details{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-column-gap: 30px;
+            
+}
+.players{
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    width:330px;
+    height:474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid #FFFFFF;
+   margin-bottom: 27px;
+}
+
+.player-image img{
+    height:256px;
+    width:300px;
+    align-items: center;
+    justify-content: center;
+    margin:15px 15px 0px 15px;
+}
+.player-info{
+    align-items: center;
+    justify-content: center;
+    padding:0px 15px 15px 15px;
+}
+.player-name{
+    color:  #18191F;
+    font-size: 28px;
+    font-weight:bolder;
+}
+.player-info p{
+    color:#6C6C6C;
+    font-size: 16px;
+    
+}
