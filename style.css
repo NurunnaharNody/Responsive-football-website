@@ -27,6 +27,9 @@ body{
       color: #FFFFFF;
       
 }
+.cover-title h1:hover{
+         color: lawngreen;
+}
 .cover-title span{
     font-size: 16px;
     font-weight: 500;
@@ -44,6 +47,9 @@ body{
     width:556px;
     height:438px;
      margin: 153px 140px 86px 104px; 
+}
+.cover-image img:hover {
+    background-color: rgba(34, 252, 27, 0.938);
 }
 /* -----------------------------players details styles----------------------------- */
 .container{
@@ -93,3 +99,90 @@ body{
     font-size: 16px;
     
 }
+/* --------------------------------football details -------------------------- */
+.detail-container{
+           
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.football-details h1{
+        font-size: 28px;
+        font-weight:bolded;
+    }
+    .football-details p{
+        font-size: 16px;
+    }
+
+.details{
+    height:750px;
+    width:1500px;
+    border:5px solid;
+    border-radius: 10px;
+    position: relative;
+    margin:10px;
+    overflow:hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+  .image{
+      width: 100%;
+      border-radius: 10px;
+  }
+  .image-details{
+          display: flex;
+          align-items: flex-start;
+          position: absolute;
+          width:200px;
+          border:2px solid indigo;
+          height:800px;
+          background-color: indigo;
+          color: rgb(181, 215, 247);
+}
+ 
+ .image-details h3{
+     font-size: 28px;
+     color: rgb(250, 252, 250);
+}
+
+.image-details span{
+    margin-top: 700px;
+    color: lavenderblush;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgba(107, 13, 214, 0.918);
+    font-size: 15px;
+}
+
+
+/* ---------------------footer styles------------------------------ */
+footer{
+         margin-top: 165px;
+         margin-bottom: 56px;
+         display: flex;
+        justify-content: center;
+         align-items: flex-start;
+        
+}
+.footer-image img{
+    width:484px;
+    height:110px;
+}
+.footer-icon {
+    margin-left: 157px;
+}
+.footer-icon i{
+    
+      color: rgb(75, 65, 65);
+      border: 8px solid rgb(228, 217, 217);
+      border-radius: 50px;
+      background-color: rgba(230, 211, 211, 0.918);
+      font-size: 15px;
+      margin-right: 10px;
+}
+.footer h2{
+    margin-left: 123px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
