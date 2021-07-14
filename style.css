@@ -72,7 +72,6 @@ main{
             display: grid;
             grid-template-columns: repeat(3,1fr);
             grid-column-gap: 30px;
-            border: 1px solid whitesmoke;
             padding: 15px;
 }
 .players{
@@ -253,10 +252,15 @@ footer{
 
     } 
     .container{
-        padding-top: 500px;
+        padding-top: 400px;
         padding-left: 450px;
+       
     }
     
+    .players{
+        margin-bottom: 100px;
+        width: auto;
+        }
     .player-details{
         grid-template-columns: repeat(1,1fr);
        
