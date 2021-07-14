@@ -226,7 +226,8 @@ footer{
 .footer-icon {
     margin-left: 157px;
 }
-.footer-icon i{
+.footer-icon a {
+    text-decoration: none;
     
       color: rgb(75, 65, 65);
       border: 8px solid rgb(228, 217, 217);
@@ -255,6 +256,46 @@ footer{
     } 
     .container{
         padding-top: 500px;
+        padding-left: 450px;
+    }
+    
+    .player-details{
+        grid-template-columns: repeat(1,1fr);
+       
+     }
+    .detail-container{
+        padding-left: 500px;
+    }
+    
+    .details{
+        height: 750px;
+        width: 700px;
+    }
+    
+    .form-container{
+       padding-left: 500px;
+    }
+       
+    .ticket-form{
+                 height: 700px;
+                 width: 700px;
+                 
+        }
+    
+    footer{
+        padding-left: 500px;
+    }
+
+}
+/* -----------------------------------FOR Tab devices------------------------------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .cover-container{
+        width: 1500px;
+    }
+    
+    .container{
+        padding-top: 100px;
         padding-left: 450px;
     }
     
