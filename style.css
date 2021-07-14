@@ -3,18 +3,24 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /*------------------ cover page style----------------------  */
+.cover-container{
+    height:400px;
+    width:100%;
+   
+    
+}
 .cover-page{
     background-color: rgba(14, 14, 160, 0.829);
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 5px;
     align-items: center;
+   
 }
 .cover-title{
      margin: 207px 102px 240px 156px; 
@@ -52,11 +58,14 @@ body{
     background-color: rgba(34, 252, 27, 0.938);
 }
 /* -----------------------------players details styles----------------------------- */
+main{
+  margin-top: 70px;
+}
 .container{
             display: flex;
             align-items: center;
             flex-direction: column;
-            padding-top: 70px;
+            padding-top: 430px;
             padding-left: 180px;
             padding-right: 210px;
 }
@@ -99,6 +108,48 @@ body{
     font-size: 16px;
     
 }
+  /*----------------------- buy ticket log in form styles------------------- */
+.form-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ticket-form{
+     background-color: rgb(6, 6, 112);
+     height: 350px;
+     width:1200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgb(89, 0, 255);
+   
+}
+.form-font{
+    margin-left: 90px;
+}
+.ticket-form  h1{
+     font-size: 40px;
+     color:rgb(252, 248, 247);
+}
+.ticket-form  h2{
+ font-size:16px;
+ font-weight: bolder;
+ color: rgb(58, 224, 188);
+}
+.ticket-form button{
+     border-radius: 10px;
+     border:3px solid black;
+     height: 50px;
+     width:120px;
+     color: cyan;
+     font-size: 16px;
+     font-weight: bolder;
+     background-color: darkred;
+
+
+}
+ 
 /* --------------------------------football details -------------------------- */
 .detail-container{
            
@@ -137,6 +188,7 @@ body{
           border:2px solid indigo;
           height:800px;
           background-color: indigo;
+          border-radius: 10px;
           color: rgb(181, 215, 247);
 }
  
@@ -185,4 +237,35 @@ footer{
     font-size: 18px;
     font-weight: 400;
 }
+/*------------------------------- meda queries for responsive site -------------- */
+/* ---------------for mobile devices-----------------  */
 
+@media screen and (max-width:688px){
+    .cover-container{
+        width:1000px;
+        height:1000px;
+       
+    }
+    .cover-page{
+       grid-template-columns: repeat(1,1fr);
+
+    } 
+    .container{
+
+    padding-left: 300px;
+    padding-right: 300px;
+}
+    .player-details{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        
+    }
+    .players{
+        height:650px;
+        width:650px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}
